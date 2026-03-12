@@ -1,7 +1,6 @@
-import { ArrowRightIcon, GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
+import { ArrowRightIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
-import { badgeVariants } from '@/components/ui/badgeVariants';
 import { buttonVariants } from '@/components/ui/buttonVariants';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { Section } from '@/features/landing/Section';
@@ -12,44 +11,32 @@ export const Hero = () => {
   return (
     <Section className="py-36">
       <CenteredHero
-        banner={(
-          <a
-            className={badgeVariants()}
-            href="https://twitter.com/ixartz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <TwitterLogoIcon className="mr-1 size-5" />
-            {' '}
-            {t('follow_twitter')}
-          </a>
-        )}
+        banner={null} // Fixes the "fragment" error and the "missing property" error
         title={t.rich('title', {
           important: chunks => (
-            <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-400 bg-clip-text text-transparent">
               {chunks}
             </span>
           ),
         })}
         description={t('description')}
         buttons={(
-          <>
+          <div className="flex flex-col items-center gap-4 sm:flex-row">
             <a
-              className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
+              className={buttonVariants({ size: 'lg' })}
+              href="https://vlostats.app/register-club"
             >
-              <GitHubLogoIcon className="mr-2 size-5" />
-              {t('secondary_button')}
+              {t('primary_button')}
+              <ArrowRightIcon className="ml-2 size-5" />
             </a>
 
             <a
-              className={buttonVariants({ size: 'lg' })}
-              href="https://vlostats.app"
+              className={buttonVariants({ variant: 'outline', size: 'lg' })}
+              href="#features"
             >
-              {t('primary_button')}
-              <ArrowRightIcon className="ml-1 size-5" />
+              {t('secondary_button')}
             </a>
-          </>
+          </div>
         )}
       />
     </Section>
