@@ -49,3 +49,9 @@ local
 
 # vercel
 .vercel
+
+# VLOStats Specific
+.env
+.env.local
+.env.production
+.env.development
