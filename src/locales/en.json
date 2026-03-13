@@ -1,43 +1,34 @@
 {
   "Index": {
-    "meta_title": "VLOStats | The Advanced Pickleball Elo Rating System",
-    "meta_description": "The premier data-driven rating system for competitive pickleball players and clubs."
+    "meta_title": "VLOStats | Club Management Tools for Pickleball Leaders",
+    "meta_description": "Automated player leveling, dynamic leaderboards, and effortless event management for pickleball club administrators."
   },
   "Navbar": {
     "sign_in": "Sign In",
-    "sign_up": "Sign Up",
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company"
+    "sign_up": "Get Started",
+    "features": "Features"
   },
   "Hero": {
-    "follow_x": "Follow @VLOStats on X",
-    "title": "The Smartest Rating System for <important>Pickleball Players</important>",
-    "description": "Go beyond the basic rating. VLOStats provides granular performance data, club leaderboards, and side-specific insights.",
-    "primary_button": "Launch Web App",
-    "secondary_button": "How it Works"
-  },
-  "Sponsors": {
-    "title": "Sponsored by"
+    "title": "Run Your Pickleball Club Like a <important>Pro</important>",
+    "description": "Stop guessing player levels, struggling with balanced matchups, and losing members to disorganized events. VLOStats gives club admins the tools to automate it all.",
+    "primary_button": "Register Your Club",
+    "secondary_button": "See How It Works"
   },
   "Features": {
-    "section_subtitle": "Why VLOStats?",
-    "section_title": "More Than Just a Number",
-    "section_description": "We built the tools that serious pickleball players actually need to track their progress.",
-    "feature1_title": "Side-Specific Ratings",
-    "feature2_title": "Club Leaderboards",
-    "feature3_title": "Real-time Updates",
-    "feature4_title": "Seamless Club Management",
-    "feature5_title": "Automated Round Robins",
-    "feature6_title": "In-depth Performance Analytics",
-    "feature_description": "Engineered for accuracy and competition."
+    "section_subtitle": "Built for Club Leaders",
+    "section_title": "Everything You Need to Run a Thriving Club",
+    "section_description": "VLOStats handles the complexity of player management so you can focus on growing your community.",
+    "feature1_title": "Automated Leveling",
+    "feature1_description": "Every match updates player ratings automatically using our Elo-based algorithm. No more spreadsheets, no more guesswork — players are always ranked accurately based on real match results.",
+    "feature2_title": "Dynamic Leaderboards",
+    "feature2_description": "Give your members a reason to keep showing up. Live leaderboards update after every session, driving friendly competition and keeping engagement high across your entire club.",
+    "feature3_title": "Event Management",
+    "feature3_description": "Generate balanced round-robin brackets in seconds based on real skill data. Group players by level automatically, fill courts efficiently, and run sessions that keep everyone challenged."
   },
   "Pricing": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
+    "section_subtitle": "Pricing",
+    "section_title": "Simple, Transparent Pricing",
+    "section_description": "Choose the plan that fits your club.",
     "button_text": "Get Started"
   },
   "PricingPlan": {
@@ -61,19 +52,15 @@
     "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
   },
   "CTA": {
-    "title": "Ready to see your real rating?",
-    "description": "Join the growing community of players using VLOStats",
-    "button_text": "Get Started for Free"
+    "title": "Ready to transform your club?",
+    "description": "Join the growing network of pickleball clubs using VLOStats to level up their operations.",
+    "button_text": "Register Your Club Free"
   },
   "Footer": {
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company",
-    "terms_of_service": "Terms Of Service",
+    "features": "Features",
+    "terms_of_service": "Terms of Service",
     "privacy_policy": "Privacy Policy",
-    "footer_text": "© {year} {name}. Made with <author></author>."
+    "footer_text": "© {year} VLOStats. All rights reserved."
   },
   "ProtectFallback": {
     "not_enough_permission": "You do not have the permissions to perform this action"
@@ -94,8 +81,8 @@
     "settings": "Settings"
   },
   "Dashboard": {
-    "meta_title": "SaaS Template Dashboard",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_title": "VLOStats Dashboard",
+    "meta_description": "Manage your pickleball club with VLOStats."
   },
   "DashboardIndex": {
     "title_bar": "Dashboard",

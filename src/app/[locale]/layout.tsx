@@ -38,7 +38,6 @@ export default function RootLayout(props: {
           {/* Your pages will render here */}
           {props.children}
 
-          {/* DemoBadge has been removed */}
         </NextIntlClientProvider>
       </body>
     </html>

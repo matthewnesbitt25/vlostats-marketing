@@ -11,7 +11,7 @@ export const Hero = () => {
   return (
     <Section className="py-36">
       <CenteredHero
-        banner={null} // Fixes the "fragment" error and the "missing property" error
+        banner={null}
         title={t.rich('title', {
           important: chunks => (
             <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-400 bg-clip-text text-transparent">

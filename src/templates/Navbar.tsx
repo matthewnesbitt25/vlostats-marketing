@@ -16,25 +16,19 @@ export const Navbar = () => {
         logo={<Logo />}
         rightMenu={(
           <>
-            {/* Redirecting to your actual Supabase app domain */}
             <li className="ml-1 mr-2.5 transition-colors hover:text-primary" data-fade>
               <a href="https://vlostats.app/login">{t('sign_in')}</a>
             </li>
             <li>
-              <a className={buttonVariants()} href="https://vlostats.app/register">
+              <a className={buttonVariants()} href="https://vlostats.app/register-club">
                 {t('sign_up')}
               </a>
             </li>
           </>
         )}
       >
-        {/* These internal links now jump to sections on your landing page instead of broken pages */}
         <li>
-          <Link href="#features">Features</Link>
-        </li>
-
-        <li>
-          <Link href="#faq">FAQ</Link>
+          <Link href="#features">{t('features')}</Link>
         </li>
       </CenteredMenu>
     </Section>

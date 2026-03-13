@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-import { AppConfig } from '@/utils/AppConfig';
 
 export const CenteredFooter = (props: {
   logo: React.ReactNode;
@@ -26,24 +25,9 @@ export const CenteredFooter = (props: {
 
       <div className="mt-6 flex w-full items-center justify-between gap-y-2 border-t pt-3 text-sm text-muted-foreground max-md:flex-col">
         <div>
-          {t.rich('footer_text', {
+          {t('footer_text', {
             year: new Date().getFullYear(),
-            name: AppConfig.name,
-            author: () => (
-              <a
-                className="text-blue-500 hover:text-blue-600"
-                href="https://nextjs-boilerplate.com"
-              >
-                Next.js Boilerplate
-              </a>
-            ),
           })}
-          {/*
-           * PLEASE READ THIS SECTION
-           * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
-           * The link doesn't need to appear on every pages, one link on one page is enough.
-           * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
-           */}
         </div>
 
         <ul className="flex gap-x-4 font-medium [&_a:hover]:opacity-100 [&_a]:opacity-60">
