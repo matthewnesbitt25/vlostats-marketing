@@ -32,7 +32,7 @@ export const Hero = () => {
 
             <a
               className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="#how-it-works"
+              href="https://vlostats.app/signup"
             >
               {t('secondary_button')}
             </a>
