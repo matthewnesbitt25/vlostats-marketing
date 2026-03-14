@@ -1,9 +1,11 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import { AdminSuperpowers } from '@/templates/AdminSuperpowers';
 import { CTA } from '@/templates/CTA';
 import { Features } from '@/templates/Features';
 import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
+import { HowItWorks } from '@/templates/HowItWorks';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -26,6 +28,8 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <Navbar />
       <Hero />
       <Features />
+      <HowItWorks />
+      <AdminSuperpowers />
       <CTA />
       <Footer />
     </>

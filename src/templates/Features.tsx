@@ -1,11 +1,10 @@
 import { useTranslations } from 'next-intl';
 
 import { Background } from '@/components/Background';
-import { FeatureCard } from '@/features/landing/FeatureCard';
 import { Section } from '@/features/landing/Section';
 
 export const Features = () => {
-  const t = useTranslations('Features');
+  const t = useTranslations('MissingPiece');
 
   return (
     <div id="features">
@@ -13,83 +12,75 @@ export const Features = () => {
         <Section
           subtitle={t('section_subtitle')}
           title={t('section_title')}
-          description={t('section_description')}
         >
-          <div className="grid grid-cols-1 gap-x-3 gap-y-8 md:grid-cols-3">
-            <FeatureCard
-              icon={(
-                <svg
-                  className="stroke-primary-foreground stroke-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M0 0h24v24H0z" stroke="none" />
-                  <path d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-                  <path d="M6 4v4" />
-                  <path d="M6 12v8" />
-                  <path d="M10 16a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-                  <path d="M12 4v10" />
-                  <path d="M12 18v2" />
-                  <path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-                  <path d="M18 4v1" />
-                  <path d="M18 9v11" />
-                </svg>
-              )}
-              title={t('feature1_title')}
-            >
-              {t('feature1_description')}
-            </FeatureCard>
-
-            <FeatureCard
-              icon={(
-                <svg
-                  className="stroke-primary-foreground stroke-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M0 0h24v24H0z" stroke="none" />
-                  <path d="M8 21l8 0" />
-                  <path d="M12 17l0 4" />
-                  <path d="M7 4l10 0" />
-                  <path d="M17 4v8a5 5 0 0 1 -10 0V4" />
-                  <path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                  <path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                </svg>
-              )}
-              title={t('feature2_title')}
-            >
-              {t('feature2_description')}
-            </FeatureCard>
-
-            <FeatureCard
-              icon={(
-                <svg
-                  className="stroke-primary-foreground stroke-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M0 0h24v24H0z" stroke="none" />
-                  <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2z" />
-                  <path d="M16 3v4" />
-                  <path d="M8 3v4" />
-                  <path d="M4 11h16" />
-                  <path d="M8 15h2v2H8z" />
-                </svg>
-              )}
-              title={t('feature3_title')}
-            >
-              {t('feature3_description')}
-            </FeatureCard>
+          {/* Intro paragraph */}
+          <div className="mx-auto mb-12 max-w-screen-md text-center">
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              {t('intro')}
+            </p>
           </div>
+
+          {/* Two-column comparison */}
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            {/* Status Quo */}
+            <div className="rounded-xl border border-border bg-card p-8">
+              <div className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                {t('status_quo_label')}
+              </div>
+              <div className="mt-2 text-xl font-bold">{t('status_quo_title')}</div>
+              <ul className="mt-4 space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-red-400">&#10005;</span>
+                  <span>{t('status_quo_point1')}</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-red-400">&#10005;</span>
+                  <span>{t('status_quo_point2')}</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-red-400">&#10005;</span>
+                  <span>{t('status_quo_point3')}</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-red-400">&#10005;</span>
+                  <span>{t('status_quo_point4')}</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* VLOStats */}
+            <div className="rounded-xl bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 p-px">
+              <div className="size-full rounded-xl bg-card p-8">
+                <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-sm font-bold uppercase tracking-wider text-transparent">
+                  {t('vlo_label')}
+                </div>
+                <div className="mt-2 text-xl font-bold">{t('vlo_title')}</div>
+                <ul className="mt-4 space-y-3 text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <span className="mt-0.5 text-green-400">&#10003;</span>
+                    <span>{t('vlo_point1')}</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="mt-0.5 text-green-400">&#10003;</span>
+                    <span>{t('vlo_point2')}</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="mt-0.5 text-green-400">&#10003;</span>
+                    <span>{t('vlo_point3')}</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="mt-0.5 text-green-400">&#10003;</span>
+                    <span>{t('vlo_point4')}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Closing line */}
+          <p className="mt-10 text-center text-lg font-medium text-muted-foreground">
+            {t('closing')}
+          </p>
         </Section>
       </Background>
     </div>

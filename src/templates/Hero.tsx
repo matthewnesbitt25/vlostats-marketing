@@ -32,7 +32,7 @@ export const Hero = () => {
 
             <a
               className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="#features"
+              href="#how-it-works"
             >
               {t('secondary_button')}
             </a>

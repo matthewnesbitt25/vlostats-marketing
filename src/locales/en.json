@@ -1,29 +1,37 @@
 {
   "Index": {
-    "meta_title": "VLOStats | Club Management Tools for Pickleball Leaders",
-    "meta_description": "Automated player leveling, dynamic leaderboards, and effortless event management for pickleball club administrators."
+    "meta_title": "VLOStats | The Rating That Knows Your Game",
+    "meta_description": "Free, automated pickleball ratings that update after every club session. Separate left-side and right-side Elo, live leaderboards, and zero-effort admin tools. Your daily club engine."
   },
   "Navbar": {
     "sign_in": "Sign In",
     "sign_up": "Get Started",
-    "features": "Features"
+    "how_it_works": "How It Works",
+    "for_admins": "For Admins"
   },
   "Hero": {
-    "title": "Run Your Pickleball Club Like a <important>Pro</important>",
-    "description": "Stop guessing player levels, struggling with balanced matchups, and losing members to disorganized events. VLOStats gives club admins the tools to automate it all.",
+    "title": "The Rating That <important>Knows Your Game</important>",
+    "description": "Updated after every session. Split by left side and right side. Free for every player at your club. This is the daily club engine your game has been waiting for.",
     "primary_button": "Register Your Club",
     "secondary_button": "See How It Works"
   },
-  "Features": {
-    "section_subtitle": "Built for Club Leaders",
-    "section_title": "Everything You Need to Run a Thriving Club",
-    "section_description": "VLOStats handles the complexity of player management so you can focus on growing your community.",
-    "feature1_title": "Automated Leveling",
-    "feature1_description": "Every match updates player ratings automatically using our Elo-based algorithm. No more spreadsheets, no more guesswork — players are always ranked accurately based on real match results.",
-    "feature2_title": "Dynamic Leaderboards",
-    "feature2_description": "Give your members a reason to keep showing up. Live leaderboards update after every session, driving friendly competition and keeping engagement high across your entire club.",
-    "feature3_title": "Event Management",
-    "feature3_description": "Generate balanced round-robin brackets in seconds based on real skill data. Group players by level automatically, fill courts efficiently, and run sessions that keep everyone challenged."
+  "MissingPiece": {
+    "section_subtitle": "THE MISSING PIECE",
+    "section_title": "Your Rating Should Work as Hard as You Do",
+    "intro": "You play three nights a week at your local club. You grind kitchen rallies, sharpen your third-shot drops, and battle-test new partners every session. But your rating? It only updates when you travel to a tournament and pay for the privilege.",
+    "status_quo_label": "Tournament Ratings",
+    "status_quo_title": "The Big Stage Benchmark",
+    "status_quo_point1": "Updates a few times a year after sanctioned bracket play",
+    "status_quo_point2": "Costs entry fees every time you want a fresh number",
+    "status_quo_point3": "One blended rating — no left-side or right-side distinction",
+    "status_quo_point4": "Doesn't capture the improvement happening between tournaments",
+    "vlo_label": "THE VLOSTATS ENGINE",
+    "vlo_title": "The Daily Club Rating",
+    "vlo_point1": "Recalculates automatically after every club session",
+    "vlo_point2": "100% free — no entry fees, no subscriptions, no hidden costs",
+    "vlo_point3": "Independent left-side and right-side Elo from a 1500 baseline",
+    "vlo_point4": "Visualizes your growth curve week over week with real match data",
+    "closing": "Tournament ratings are for the big stage. VLOStats is for the daily grind — where real improvement happens."
   },
   "Pricing": {
     "section_subtitle": "Pricing",
@@ -51,13 +59,38 @@
     "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
     "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
   },
+  "HowItWorks": {
+    "section_subtitle": "HOW IT WORKS",
+    "section_title": "Four Steps. Zero Friction.",
+    "section_description": "From signup to your first rated session in under five minutes.",
+    "step1_title": "Join Your Club",
+    "step1_description": "Your club admin registers the club and shares a simple join code. You sign up, enter the code, and you're on the roster. No membership fee. No per-session charge. No subscription. Just a code and you're in.",
+    "step2_title": "Set It and Forget It",
+    "step2_description": "Club leaders create recurring sessions — Tuesday nights, Saturday mornings, whatever fits your courts. The system auto-generates every match date for the season, locks signups before start time, and handles matchmaking by VLO rating. Sub rotation keeps everyone on the court. Set it up once and never think about it again.",
+    "step3_title": "Play Your Games",
+    "step3_description": "Step on the court, play your doubles match, and log the score when you're done. Here's the difference: VLOStats tracks separate left-side and right-side ratings. A 4.0 on the left isn't always a 4.0 on the right — and your Elo knows it. Each side adjusts independently based on opponent strength and margin of victory. One player logs, one opponent confirms. Done.",
+    "step4_title": "Watch Yourself Improve",
+    "step4_description": "Open your dashboard and see a rating curve that actually moves. Track your best partners, toughest opponents, win streaks, and per-side progression over time. The club-wide leaderboard splits by division and filters by left-side, right-side, or overall. This isn't a vanity number — it's a training tool that shows you exactly where your game is growing."
+  },
+  "AdminSuperpowers": {
+    "section_subtitle": "FOR CLUB LEADERS",
+    "section_title": "Admin Superpowers. Zero Headaches.",
+    "section_description": "You run a club, not a tournament desk. VLOStats gives you back the hours you used to spend on spreadsheets, group texts, and court assignments.",
+    "feature1_title": "Automated Matchmaking",
+    "feature1_description": "The system generates balanced doubles pairings across your full roster using VLO ratings. No clipboard. No arguing over courts. Skill-weighted randomization means every game is competitive and every player gets fair matchups.",
+    "feature2_title": "Session Locking & Scheduling",
+    "feature2_description": "Create a recurring schedule in three fields: day, time, location. The system generates every date for the season automatically. Signups lock before start time so nobody ghosts last-minute. Set it once, run it all season.",
+    "feature3_title": "Emergency Controls",
+    "feature3_description": "Player no-shows mid-session? Swap them out in two taps. Rain-out? Cancel cleanly. Need to delete a mislogged match? Emergency re-calculate preserves every verified result and zeros out anything unplayed. Full audit trail, zero panic."
+  },
   "CTA": {
-    "title": "Ready to transform your club?",
-    "description": "Join the growing network of pickleball clubs using VLOStats to level up their operations.",
+    "title": "Your club deserves better tools. They're free.",
+    "description": "Register in two minutes. Your players get rated by next week. Join the growing network of clubs running smarter sessions with VLOStats.",
     "button_text": "Register Your Club Free"
   },
   "Footer": {
-    "features": "Features",
+    "how_it_works": "How It Works",
+    "for_admins": "For Admins",
     "terms_of_service": "Terms of Service",
     "privacy_policy": "Privacy Policy",
     "footer_text": "© {year} VLOStats. All rights reserved."

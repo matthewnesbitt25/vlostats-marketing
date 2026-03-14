@@ -28,7 +28,10 @@ export const Footer = () => {
         )}
       >
         <li>
-          <Link href="#features">{t('features')}</Link>
+          <Link href="#how-it-works">{t('how_it_works')}</Link>
+        </li>
+        <li>
+          <Link href="#admin-superpowers">{t('for_admins')}</Link>
         </li>
       </CenteredFooter>
     </Section>

@@ -1,7 +1,7 @@
 import { cn } from '@/utils/Helpers';
 
 export const Section = (props: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   title?: string;
   subtitle?: string;
   description?: string;
