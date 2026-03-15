@@ -7,6 +7,7 @@ import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
 import { HowItWorks } from '@/templates/HowItWorks';
 import { Navbar } from '@/templates/Navbar';
+import { Pricing } from '@/templates/Pricing';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -30,6 +31,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <Features />
       <HowItWorks />
       <AdminSuperpowers />
+      <Pricing />
       <CTA />
       <Footer />
     </>

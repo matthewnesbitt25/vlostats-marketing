@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from '@radix-ui/react-icons';
+import { ArrowRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -19,7 +19,7 @@ export const CTA = () => {
             href="https://vlostats.app/register-club"
           >
             {t('button_text')}
-            <ArrowRightIcon className="ml-1 size-5" />
+            <ArrowRight className="ml-1 size-5" />
           </a>
         )}
       />

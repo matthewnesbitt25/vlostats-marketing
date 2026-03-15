@@ -1,7 +1,7 @@
 {
   "Index": {
-    "meta_title": "VLOStats | The Rating That Knows Your Game",
-    "meta_description": "Free, automated pickleball ratings that update after every club session. Separate left-side and right-side Elo, live leaderboards, and zero-effort admin tools. Your daily club engine."
+    "meta_title": "VLOStats | Run Your Club. Not a Spreadsheet.",
+    "meta_description": "VLOStats gives pickleball club admins one-click scheduling, automated Elo ratings after every session, and live leaderboards — all free. Stop managing. Start playing."
   },
   "Navbar": {
     "sign_in": "Sign In",
@@ -10,47 +10,42 @@
     "for_admins": "For Admins"
   },
   "Hero": {
-    "title": "The Rating That <important>Knows Your Game</important>",
-    "description": "Updated after every session. Split by left side and right side. Free for every player at your club. This is the daily club engine your game has been waiting for.",
+    "title": "Run Your Club. Not a <important>Spreadsheet.</important>",
+    "description": "One platform gives you automated matchmaking, session locking, and an Elo that updates after every game — completely free. Your players get rated. You get your weekends back.",
     "primary_button": "Register Your Club",
     "secondary_button": "Join Your Club"
   },
-  "MissingPiece": {
-    "section_subtitle": "THE MISSING PIECE",
-    "section_title": "Your Rating Should Work as Hard as You Do",
-    "intro": "You play three nights a week at your local club. You grind kitchen rallies, sharpen your third-shot drops, and battle-test new partners every session. But your rating? It only updates when you travel to a tournament and pay for the privilege.",
-    "status_quo_label": "Tournament Ratings",
-    "status_quo_title": "The Big Stage Benchmark",
-    "status_quo_point1": "Updates a few times a year after sanctioned bracket play",
-    "status_quo_point2": "Costs entry fees every time you want a fresh number",
-    "status_quo_point3": "One blended rating — no left-side or right-side distinction",
-    "status_quo_point4": "Doesn't capture the improvement happening between tournaments",
-    "vlo_label": "THE VLOSTATS ENGINE",
-    "vlo_title": "The Daily Club Rating",
-    "vlo_point1": "Recalculates automatically after every club session",
-    "vlo_point2": "100% free — no entry fees, no subscriptions, no hidden costs",
-    "vlo_point3": "Independent left-side and right-side Elo from a 1500 baseline",
-    "vlo_point4": "Visualizes your growth curve week over week with real match data",
-    "closing": "Tournament ratings are for the big stage. VLOStats is for the daily grind — where real improvement happens."
+  "Features": {
+    "section_subtitle": "BUILT FOR ADMINS",
+    "section_title": "Three Tools. Zero Overhead.",
+    "section_description": "Everything you need to run a competitive, drama-free club — without a single spreadsheet.",
+    "card1_title": "Automated Leveling",
+    "card1_description": "Every session re-calculates each player's Elo automatically. Pure math, applied independently to left-side and right-side. No manual adjustments, no favoritism, no arguments.",
+    "card2_title": "Dynamic Leaderboards",
+    "card2_description": "Live standings that update after every game. Filter by division, side preference, or win streak. Players stay engaged. You stay out of the drama.",
+    "card3_title": "Event Management",
+    "card3_description": "Create a recurring schedule in three fields. Signups lock before court time, matchmaking runs automatically, and every date is generated for the season. Set it once, run it forever.",
+    "card4_title": "Frictionless Adoption",
+    "card4_description": "Because the club pays, players join with a code — no subscription, no credit card, no barrier. A 100% adopted roster means 100% accurate ratings. Zero opt-outs, zero blind spots in the leaderboard."
   },
   "Pricing": {
-    "section_subtitle": "Pricing",
-    "section_title": "Simple, Transparent Pricing",
-    "section_description": "Choose the plan that fits your club.",
-    "button_text": "Get Started"
+    "section_subtitle": "PLANS FOR CLUBS",
+    "section_title": "One Club Fee. Rated Players. Zero Friction.",
+    "section_description": "Your club pays. Every player on your roster gets a live Elo — no sign-up fee, no subscription, no barriers.",
+    "player_note": "Basic ratings are always free through your club."
   },
   "PricingPlan": {
-    "free_plan_name": "Free",
-    "premium_plan_name": "Premium",
-    "enterprise_plan_name": "Enterprise",
-    "free_plan_description": "For individuals",
-    "premium_plan_description": "For small teams",
-    "enterprise_plan_description": "For industry leaders",
-    "feature_team_member": "{number} Team Members",
-    "feature_website": "{number} Websites",
-    "feature_storage": "{number} GB Storage",
-    "feature_transfer": "{number} TB Transfer",
-    "feature_email_support": "Email Support",
+    "free_plan_name": "Community",
+    "premium_plan_name": "Competitive",
+    "enterprise_plan_name": "Elite",
+    "free_plan_description": "Small clubs getting their first rated sessions",
+    "premium_plan_description": "Growing clubs that need admin tools & deeper control",
+    "enterprise_plan_description": "Large facilities, multi-court programs & serious leagues",
+    "feature_team_member": "Up to {number} Rostered Players",
+    "feature_website": "Up to {number} Active Events",
+    "feature_storage": "Automated Elo & Matchmaking",
+    "feature_transfer": "Live Leaderboards",
+    "feature_email_support": "Admin Dashboard & Emergency Controls",
     "plan_interval_month": "month",
     "plan_interval_year": "year",
     "next_renew_date": "Your subscription renews on {date}"
@@ -84,16 +79,18 @@
     "feature3_description": "Player no-shows mid-session? Swap them out in two taps. Rain-out? Cancel cleanly. Need to delete a mislogged match? Emergency re-calculate preserves every verified result and zeros out anything unplayed. Full audit trail, zero panic."
   },
   "CTA": {
-    "title": "Your club deserves better tools. They're free.",
-    "description": "Register in two minutes. Your players get rated by next week. Join the growing network of clubs running smarter sessions with VLOStats.",
-    "button_text": "Register Your Club Free"
+    "title": "Bring Professional Ratings to Your Club.",
+    "description": "Two minutes to register. Ratings live by next session. Every player on your roster gets an Elo — free.",
+    "button_text": "Register Your Club"
   },
   "Footer": {
     "how_it_works": "How It Works",
     "for_admins": "For Admins",
     "terms_of_service": "Terms of Service",
     "privacy_policy": "Privacy Policy",
-    "footer_text": "© {year} VLOStats. All rights reserved."
+    "footer_text": "© {year} VLOStats. All rights reserved.",
+    "tagline": "The club management platform for serious pickleball admins.",
+    "get_started": "Get Started"
   },
   "ProtectFallback": {
     "not_enough_permission": "You do not have the permissions to perform this action"
@@ -121,10 +118,7 @@
     "title_bar": "Dashboard",
     "title_bar_description": "Welcome to your dashboard",
     "message_state_title": "Let's get started",
-    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>",
-    "message_state_button": "Star on GitHub",
-    "message_state_alternative": "Need advanced features? Next.js 16 & React 19, Multi-tenancy & Teams, Roles & Permissions, Shadcn UI,\nEnd-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try <url></url>.",
-    "max_message": "Or, need a Self-hosted auth stack (Better Auth)? Try <url></url>."
+    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>"
   },
   "UserProfile": {
     "title_bar": "User Profile",
@@ -158,30 +152,5 @@
     "title_bar": "Todo List",
     "title_bar_description": "View and manage your todo list",
     "add_todo_button": "New todo"
-  },
-  "TodoTableColumns": {
-    "open_menu": "Open menu",
-    "edit": "Edit",
-    "delete": "Delete",
-    "title_header": "Title",
-    "message_header": "Message",
-    "created_at_header": "Created at"
-  },
-  "AddTodo": {
-    "title_bar": "Add Todo",
-    "add_todo_section_title": "Create a new todo",
-    "add_todo_section_description": "Fill in the form below to create a new todo"
-  },
-  "EditTodo": {
-    "title_bar": "Edit todo",
-    "edit_todo_section_title": "Modify todo",
-    "edit_todo_section_description": "Fill in the form below to edit the todo"
-  },
-  "TodoForm": {
-    "title_label": "Title",
-    "title_description": "Enter a descriptive title for your todo.",
-    "message_title": "Message",
-    "message_description": "Enter a detailed message for your todo.",
-    "submit_button": "Submit"
   }
 }

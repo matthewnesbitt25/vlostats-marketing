@@ -12,10 +12,14 @@ export const Footer = () => {
 
   return (
     <Section className="pb-16 pt-0">
+      <p className="mb-6 text-center text-sm text-muted-foreground">
+        {t('tagline')}
+      </p>
+
       <CenteredFooter
         logo={<Logo />}
         name={AppConfig.name}
-        iconList={<></>}
+        iconList={null}
         legalLinks={(
           <>
             <li>
@@ -32,6 +36,9 @@ export const Footer = () => {
         </li>
         <li>
           <Link href="#admin-superpowers">{t('for_admins')}</Link>
+        </li>
+        <li>
+          <a href="https://vlostats.app/register-club">{t('get_started')} →</a>
         </li>
       </CenteredFooter>
     </Section>
